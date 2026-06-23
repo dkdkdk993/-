@@ -1,0 +1,67 @@
+body{
+    font-family:Arial,sans-serif;
+}
+
+.hero{
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.45)
+    ),
+    url("images/church.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.section{
+    padding:80px 0;
+}
+
+.service-box{
+    background:white;
+    padding:30px;
+    text-align:center;
+
+    border-radius:10px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+    margin-top:20px;
+}
+
+.event-box{
+    background:white;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+}
+
+footer{
+    background:#1d3557;
+
+    color:white;
+
+    padding:40px 0;
+}
